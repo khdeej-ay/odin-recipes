@@ -1,7 +1,7 @@
 body {
     background-color: #FEEB97;
     padding-top: auto;
-    padding-left: 50px;
+    padding-left: 100px;
     padding-right: 50px;
     padding-bottom: 50px;
 }
@@ -67,4 +67,44 @@ div {
     display: block;
     border: 10px;
     border-color: #4FB783;
+}
+
+a {
+    font-size: 32px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+}
+
+.home {
+    font-size: 24px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    transform: translateY(-2.0rem);
+    position: fixed;
+    height: 4rem;
+    width: 8rem;
+    line-height: 4.0rem;
+    left: auto;
+    top: 0px;
+    background-color: #FEEB97;
+    box-shadow: 0px 0px 15px #3fb67a;
+    border-radius: 50%;
+    border: 5px solid #4FB783;
+    display: block;
+}
+
+a:link {
+    color: #409d9b; 
+}
+
+a:visited {
+    color: #409d9b;
+}
+
+a:hover {
+    color: #4FB783;
+}
+
+a:active {
+    color: #4FB783;
 }
